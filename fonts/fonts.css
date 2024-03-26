@@ -15,3 +15,28 @@
   font-weight: bold;
   font-display: swap;
 }
+.header {
+  font-family: 'Raleway' serif;
+  font-size: 18px;
+  font-weight: normal;
+  
+}
+.cover__title {
+  font-family: 'Raleway' serif;
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+
+}
+.aligned-text {
+letter-spacing: 0.3em;
+text-align:start;
+}
+.aligned-text_center {
+letter-spacing: 0.2em;
+}
+.aligned-text-right {
+  letter-spacing: 0.3em;
+  
+}
