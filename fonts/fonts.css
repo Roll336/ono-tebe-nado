@@ -31,12 +31,23 @@
 }
 .aligned-text {
 letter-spacing: 0.3em;
-text-align:start;
+
 }
 .aligned-text_center {
-letter-spacing: 0.2em;
+letter-spacing: 0.3em;
 }
 .aligned-text-right {
-  letter-spacing: 0.3em;
-  
+  letter-spacing: 0.2em;
+}
+.word_without__letter-space{
+  letter-spacing: 0;
+}
+.cover__description-text {
+  font-family: 'Raleway' serif;
+  font-weight: normal;
+  font-size: 22px;
+  text-transform: uppercase;
+  line-height: 28px;
+  color: white;
+  word-spacing: 30px;
 }
