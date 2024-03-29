@@ -50,6 +50,7 @@ width:100%;
     background-image: url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
+    margin-bottom: 179px;
     
 }
 
@@ -88,27 +89,65 @@ width:100%;
 .aligned-text-right {
    letter-spacing: 0.3em;
    text-align: end;
+   padding-right: 19px;
+   
      
      }
 .H_without__letter-space {
-    letter-spacing: 0;
+    letter-spacing: 10px;
     text-align: end;
-    padding-right:;
+    padding-left: 583px;
+    
+    
 }
 .cover__description {
     position: absolute;
-    inset: 0;
+    bottom: 50px;
+   padding-left: 78px;
+   padding-right: 50px;
     display: flex;
-    flex:none;
+    align-items: baseline;
     justify-content: space-between;  
     z-index: 1;
-    min-width: 1100x;
-    padding: 667px 50px 62px 78px;
+    min-width: 100%;
+
 }
 .cover__description-text {
     
 
 }
 .bet-button{
+    font-family: 'Raleway' serif;
+    border: 1px solid;
+    padding: 12px 32px;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    color: rgb( 255 255 255);
+    background-color: rgb(255 255 255 / 0);
+    
+}
+
+
+
+.lots { 
+
+}
+.lots__heading {
+
+}
+.lots__card-list {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    height:100%;
+    
+}
+.card{
+    height: 100%;
+}
+.card_type_film {
     
 }

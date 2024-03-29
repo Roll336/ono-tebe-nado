@@ -19,11 +19,19 @@
   font-family: 'Raleway' serif;
   font-size: 18px;
   font-weight: normal;
+  font-style: normal;
   
+}
+.address {
+  font-style: normal;
+}
+.cover {
+  text-transform: uppercase;
 }
 .cover__title {
   font-family: 'Raleway' serif;
   font-size: 100px;
+  line-height: 125px;
   font-weight: bold;
   text-transform: uppercase;
   color: white;
@@ -37,10 +45,10 @@ letter-spacing: 0.3em;
 letter-spacing: 0.3em;
 }
 .aligned-text-right {
-  letter-spacing: 0.2em;
+  
 }
 .word_without__letter-space{
-  letter-spacing: 0;
+  letter-spacing: 7px;
 }
 .cover__description-text {
   font-family: 'Raleway' serif;
@@ -49,5 +57,23 @@ letter-spacing: 0.3em;
   text-transform: uppercase;
   line-height: 28px;
   color: white;
-  word-spacing: 30px;
+  word-spacing: 20px;
+}
+
+
+.card__title {
+font-family: 'Raleway' serif;
+font-size: 22px;
+font-weight: 700;
+line-height: 26.4px;
+text-align: left;
+text-decoration: underline;
+text-transform: uppercase;
+}
+.card__text {
+font-family: Raleway;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
 }
