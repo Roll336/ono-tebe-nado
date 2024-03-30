@@ -1,22 +1,24 @@
 
 .header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
     width:100%;
     height:105px;
     margin: 92px 24px 96px;
+    justify-content: space-between;
 }
 
 .header__menu {
-    width: 391.48px;
-    height: 22px;
-    margin: 44px 36px 39px 26.52px;
+    align-self: center;
+    margin-left: 27px;
 }
 
 .header__links-list {
+    
     display:flex;
+    text-wrap: nowrap;
     list-style:circle;
-    margin: 44px 36px 39px 26.52;
-    column-gap: 30px;
+    column-gap: 32px;
 }
 
 .header__links-list-item_no-bullit {
@@ -27,26 +29,25 @@
 .header__logo {
     width: 148px;
     height: 105px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 36px;
+    margin-right: 194px;
 }
 
 .header__logo-image {
 width:100%;
 }
 .address__container {
-    width: 240.52px;
-    height: 98px;
-    margin: 5px 25.48px 2px 184px;
+    width: 240px;
+    margin-top: 5px;
+   
 }
 
 .cover {
     position: relative;
     inset:0;
     z-index: -1;
-    ;
     width: 1100px;
-    height: 757px;
+    min-height: 757px;
     background-image: url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
@@ -62,8 +63,7 @@ width:100%;
     background-color: rgb(0 0 0 / 0.6);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    
 }
 .cover__title {
     position: absolute;
@@ -73,33 +73,8 @@ width:100%;
     flex-direction: column;
     padding: 165px 0px 237px 50px;
     min-width: 1100px;
-
-    
-
 }
-.aligned-text {
-    text-align: start;
-}
-
-
-.aligned-text_center{
     
-    padding-left: 286px;
-}
-.aligned-text-right {
-   letter-spacing: 0.3em;
-   text-align: end;
-   padding-right: 19px;
-   
-     
-     }
-.H_without__letter-space {
-    letter-spacing: 10px;
-    text-align: end;
-    padding-left: 583px;
-    
-    
-}
 .cover__description {
     position: absolute;
     bottom: 50px;
@@ -133,21 +108,130 @@ width:100%;
 
 
 .lots { 
-
+   
 }
 .lots__heading {
+padding-left: 64px;
+padding-bottom: 27px;
 
 }
 .lots__card-list {
     display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+    
     list-style: none;
     gap: 25px;
-    height:100%;
+    min-height: 563px;
     
+}
+.lots__card-list-item{
+    width: 334px;
+   min-height: 563px;
+   
 }
 .card{
-    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 563px;
 }
 .card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
+
+}
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card__title {
+    position: absolute;
+    z-index: 1;
+    padding-top: 51px;
+    padding-left: 40px;
+    padding-right: 40px;
+   
+}
+.card__text {;
+    position: absolute;
+    z-index: 1;
+    padding-left: 40px;
+    padding-right: 40px;
+    bottom: 48px;
+}
+.lots__look-more-link-container {
+    margin-left: 64px;
+    margin-top: 30px;
+}
+.about {
+    display: grid;
+    grid-template-columns: 334px 1fr;
+    grid-template-rows: 136px 1fr;
+    margin-top: 146px;
+    padding: 0 24px 0;
+}
+.about__column-text {
+    grid-row: 2 / 3;
+    grid-column: 2 / 6;
+}
+.about__logo {
+background-color: rgb(0, 0, 0);
+background-size: cover;
+width: 240px;
+height: 240px;
+border-radius: 50%;
+margin-top: 35px;
+margin-right: 72px;
+margin-left: 47px;
+
+}
+.about__logo-image {
+display: block; 
+margin: auto;
+padding-top: 67px;
+width: 60%;
+}
+.about__title {
+margin-bottom: 100px;
+}
+.about__first_p {
+    margin-bottom: 24px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 180px 50px 88px;
+    width: 100%;
+    align-items: start;
+}
+.address__container {
+    
+}
+.footer__menu-list {
+    list-style: none;
+    text-align: center;
+}
+.footer__social-list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    justify-content: end;
+}
+.footer__social-list-item {
+    width: 48px;
 }
