@@ -5,7 +5,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  margin: 92px 24px 92px;
+  margin: 92px 24px;
   justify-content: space-between;
   text-underline-offset: 5px;
   font-size: 18px;
